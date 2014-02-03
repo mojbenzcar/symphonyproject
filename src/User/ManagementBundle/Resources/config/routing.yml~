@@ -1,0 +1,7 @@
+usermanagement_homepage:
+    pattern:  /user/{name}
+    defaults: { _controller: UsermanagementBundle:Default:index }
+
+blog_show:
+    path:      /user_testing/news/
+    defaults:  { _controller: UsermanagementBundle:Default:show }
